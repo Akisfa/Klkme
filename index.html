@@ -1,0 +1,21 @@
+<style>
+    #c{
+        font-size: 100px;
+    }
+</style>
+<img id="g" src="thcf.jpg">
+<title>Klikni me</title>
+<button id="c" onclick=but()>Klikni me</button>
+<script>
+var a;
+function but(){
+    if (a==0){
+    document.getElementById("g").style.display="inline";
+    return a=1;}
+    else{
+        document.getElementById("g").style.display="none";
+        return a=0;
+    }
+}
+
+</script>
